@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Home"</title>
+</head>
+<body>
+    <h1>Welcome To WVC</h1>
+
+    <figure>
+        <img src="html images/images/college-building.jpg" 
+        alt="A person standing in front of a large brick building."
+        width="600" height="450"
+        title="West Valley College. Photo by: Keming Tan on Unsplash"
+        description="Free to use under the Unsplash License">
+    <br>
+    <figcaption>Photo Credit: Keming Tan on Unsplash</figcaption>
+    </figure>
+    <br> 
+    <p>Log in first to get the best use out of this site: </p>
+
+    <form action="http://www.example.com/profile.php" method="post">
+        <label for="username">User Name:</label>
+        <input type="text" name="username" placeholder="Enter username." required="required">
+        <br>
+        <br>
+        <label for="password">Password:  </label>
+        <input type="text" name="password" placeholder="Enter password." required="required">
+        <br>
+        <button>Submit</button>  
+    </form>
+
+    <h2>About the school</h2>
+    <p>We are the best at what we do! From the arts to the sciences, we've got you covered. 
+       Here you will find all the information you need:</p>
+    <a href="#course_list">Course List</a><br />
+    <a href="#sign-up">How To Sign Up For Class</a><br />
+    <a href="#resources">Resource Centers</a><br />
+    <a href="#faculty">Faculty List</a><br />
+    <a href="#map">Campus Map</a><br /></a>
+    
+    <p>Still need more information? No worries! Feel free to use our search bar below.</p>
+
+    <form action="http://www.example.com/profile.php">
+        <p>Search:</p>
+        </button>
+        <input type="search" name="search" placeholder="Search"/>
+        <button>Submit</button>
+    </form>
+
+    <h2>Join our Mailing list! </h2>
+    <p>If you join our mailing list, you will get exclusive information regarding upcoming events, assignments, 
+    and well... more events! Be the first to be “in the know”.  We promise not to spam you. <em>Really!</em></p>  
+    
+    <form action="action=http://www.example.org/subscribe.php">
+        <p>Please enter your email address:</p>
+        <input type="email" name="email">
+        <button>Submit</button>
+    </form>
+    
+    <h2>Favorite Music Apps</h2>
+    <p>What kind of music applications do you like using while studying or on the go?  You can choose more than 
+       one music streaming application.
+   
+    <form action="action=http://www.example.org/profile.php">
+        <p>Please select your favorite music services.</p>
+        <input type="checkbox" name="service" value="itunes" checked="checked" />itunes
+        <input type="checkbox" name="service" value="lastfm" />lastfm
+        <input type="checkbox" name="service" value="spotify"/>spotify
+    </form>
+
+    <h2>Favorite Music Style</h2>
+    <form action="http://www.example.org/profile.php">
+        <p>Please select your favorite genre.</p>
+        <input type="radio" name="genre" value="rock" checked="checked"/>Rock
+        <input type="radio" name="genre" value="pop" />Pop
+        <input type="radio" name="genre" value="jazz" />Jazz
+    </form>
+
+<h2>Preferred Browser</h2>
+    <form action="http://www.example.org/profile.php">
+        <p>Are you a MacOS, Windows, or Linux user? As you browse the internet, which kind of computer OS are you using?</p>
+        <select name="browsers">
+            <option value="">MacOS</option>
+            <option value="">Windows</option>
+            <option value="">Linux</option>
+        </select>
+    </form> 
+
+
+<h2>Add Your Profile Image</h2>
+    <form action="http://www.example.org/upload.php" method="post">
+        <p>Upload an image of yourself.</p><br>
+        <input type="file" name="image"/><br>
+        <input type="submit" value="Upload"/>
+    </form> 
+
+<h2>Contact information? Please use the form below.</h2>
+    <fieldset>
+        <legend>Contact Details</legend>
+       ><label>First Name</label><br>
+             <input type="text" name="first"/> </label><br>     
+        ><label>Last Name</label><br>
+             <input type="text" name="last"/> </label><br>     
+        <label>Email:<br />
+            <input type="text" name="email"/> </label><br>
+        <label>Mobile<br />
+            <input type="text" name="mobile"/> </label><br>            
+        <label>Telephone<br />
+            <input type="text" name="telephone"/> </label><br>        
+    </fieldset>
+
+<h2>Set a date when you can visit the campus!</h2>
+    <form action="http://www.example.com/bookings" method="post">
+        <label for="username">Departure Date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+</html>
+
