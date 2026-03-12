@@ -1,0 +1,39 @@
+body 
+    {
+     font-family: Arial, Verdana, san-serif;  
+     font-size: 16px; 
+     background-color: rgb(175, 227, 175); 
+    }
+
+h1  {
+    font-size: 64px;
+    color:purple
+    }
+
+#specialHeader {
+    font-size:30ps;
+    color:green
+}
+
+.headerTwo {
+    font-size: 36;
+    color: brown;
+    background-color: pink;
+}
+
+h2  {
+    font-size: 24;
+    color:purple
+    }
+
+.pspecial{ 
+    font-size: 20 px;
+    color:red
+}
+
+ul  
+    {font-size: 18;
+    color:red;
+    border-color:orange;
+    border: 2px
+    }
