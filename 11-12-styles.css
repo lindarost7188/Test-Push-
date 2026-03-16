@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+.hero img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.hero h1,
+.hero h2 {
+    margin: 0;
+}
+
+
+h1 {
+    vertical-align: text-top;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: rgb(35,79,140);
+    }
+
+h2{ 
+    vertical-align: text-top;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgb(35,79,140);
+    }
+
+p{  vertical-align: text-top;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgb(35,79,140);}
+
+.div1 {
+    background-color: rgb(196,213,222);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 4rem;
+    }
+
+.sectionWhite {
+    background-color: #ffffff;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sectionWhite img {
+    display: inline-block;
+    vertical-align: middle;
+    }
+    
+.sectionColor {
+    background-color: rgb(255,230,223);
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.section-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.textShadow {
+    color: red;
+    text-shadow:  2px 4px #000;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-size:1rem;
+   } 
+
+
+a {
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-size:1rem;text-decoration: none;
+    text-align: right;
+    }
