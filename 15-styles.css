@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, header, footer, .div1, .div2, .div3, .div4 {
+    font-size: 2rem;
+    font-family: 'Orbitron', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+header, footer { /*-- THIS WORKS-DON'T CHANGE IT --*/
+    display: flex;
+    align-items: center;   
+    justify-content: space-between; 
+    height: 300px;
+    border: 2px solid black;
+    background: #A33B20;
+ }
+ 
+.logo { /*-- THIS WORKS-DON'T CHANGE IT --*/
+    justify-content:center;
+    width: 30%;
+    height: 75%;
+    border: 2px solid black;
+    background-color: whitesmoke
+}  
+
+.menu { /*-- THIS WORKS-DON'T CHANGE IT --*/
+    justify-content:center;   
+    width: 60%;
+    height: 75%;
+    border: 2px solid black;
+    background-color: whitesmoke
+}
+
+.div1 {
+    float: left;
+    height: 500px;
+    width: 20%;  /*--- the math begins.... */ 
+    border: 2px solid black;
+    background: #44A1A0;
+}
+
+.div2 {
+    float: left;
+    height: 500px;
+    width: 40%;  /*--- the math begins.... */  
+    border: 2px solid black;
+    background: #4670a3;
+}
+
+.div3 {
+    float: left;
+    height: 500px;
+    width: 20%;  /*--- the math begins.... */  
+    border: 2px solid black;
+    background: #7cd476;
+}
+
+.div4 {
+    float: left;
+    height: 500px;
+    width: 20%;  /*--- the math begins.... */  
+    border: 2px solid black;
+    background: #d1589d;
+}
+
+footer {
+    clear: both; /*-- CLEARS THE FLOAT ON THE FOOTER --*/
+} 
+/*=====MEDIA QUERIES - Order tablets first, then mobile. Enter only properties that should change.=======================*/
+
+/*------ Ipad-Tablet ------*/
+@media screen and (max-width: 868px) {
+    header{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .div1, .div2 {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .div3, .div4 {
+        float: left;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+/*------ Ipad-Tablet ------*/
+@media screen and (max-width: 580px) {
+    header{
+        height: 75px;
+        margin-bottom: 10px;
+    }
+
+    .div1, .div2, .div3, .div4 {
+        width: 100%;
+        margin-bottom: 10px;
+        clear: both
+    }
+}

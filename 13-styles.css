@@ -1,0 +1,245 @@
+/*=============START Keep these at the top above body=============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {box-sizing: border-box}
+
+/*=============END Keep these at the top above body=============*/
+
+body{
+    background-color: #ffffff;
+}
+/*=========================START NAV BAR=========================*/
+.navBlock {
+    background-color: rgb(35,79,140);
+    height: 60px;
+    }
+
+    .navBar {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 75px;
+    list-style: none;
+    line-height: 60px; 
+}
+
+.navList {
+display: inline;
+text-align: center;
+vertical-align: middle;
+padding: 10px
+}
+
+a {
+    text-decoration: none;
+}
+
+.navBar a:link {color: white;
+}
+
+.navBar a:visited {color: white
+}
+
+.navBar a:hover {color: deeppink;
+}
+
+.navBar a:active {
+color: deeppink;
+text-decoration: underline;
+}
+/*=========================END NAV BAR=========================*/
+
+.hero {
+    text-align: center;
+    background-color: rgb(225, 230, 236);
+    padding: 0px;
+}
+
+.hero img { /*===THIS WORKS. DON'T CHANGE IT===*/
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px 5px #777777;
+}
+
+
+.hero-text {
+    margin: 25px;
+    text-align: center;
+} /*===END THIS WORKS. DON'T CHANGE IT===*/
+
+
+.hero h1,
+.hero h2 {
+    margin: 0;   
+}
+
+
+h1 { /*===THIS WORKS. DON'T CHANGE IT===*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(35,79,140);
+    border-top: 5px solid rgb(175, 116, 47);
+    border-bottom: 5px solid rgb(175, 116, 47);
+    padding: 60px 50px;
+    border-radius: 25px;
+} /*===END THIS WORKS. DON'T CHANGE IT===*/
+
+
+h2{ 
+    vertical-align: text-top;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgb(35,79,140);
+    }
+
+.home-content { /*===STYLES THE CONTAINER===*/
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    border-radius: 10px 60px;
+    background-color: rgb(225, 230, 236);
+}
+
+.home-content p {/*===STYLES THE CONTENT IN THE CONTAINER===*/
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 20px; /* desktop */
+    color: rgb(35,79,140);
+    text-align: center;
+}
+
+li {
+margin-right: 25px;
+}
+
+.sectionWhite {
+    background-color: #ffffff;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sectionWhite img {
+    display: inline-block;
+    vertical-align: middle;
+    }
+    
+.sectionColor {
+    background-color: rgb(255,230,223);
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.section-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.textShadow {
+    color: red;
+    text-shadow:  2px 4px #000;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-size:1rem;
+   } 
+
+
+a {
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-size:1rem;
+    text-decoration: none;
+    text-align: right;
+    }
+
+.emailLink {
+    color:black;
+} 
+/*=====MEDIA QUERIES - Order tablets first, then mobile. Enter only properties that should change.=======================*/
+
+/*------ Ipad-Tablet ------*/
+@media screen and (max-width: 768px) {
+    .hero img {
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 40px;
+        padding: 40px;
+
+    }
+        .navBar {
+        font-size: 18px;
+    }
+
+    .navList {
+        padding: 6px;
+    }
+
+    .home-content {
+        max-width: 350px;
+        min-height: 350px;
+    }
+    .home-content p {
+        font-size: 15px;
+    }
+}
+
+
+/*------ Mobile Phone ------*/
+@media screen and (max-width: 480px) {
+
+    .hero img {
+        max-width: 250px;
+        height: auto;
+    }
+
+     .navBar {
+        font-size: 16px;
+        line-height: normal;
+        padding-top: 10px;
+    }
+
+    .navList {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .navBlock {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .home-content {
+        max-width: 275px;
+        min-height: 275px;
+        padding: 15px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+            }
+}
+
